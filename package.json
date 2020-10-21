@@ -9,13 +9,20 @@
   ],
   "author": "Morgan Roderick",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinonjs/eslint-plugin-no-prototype-methods.git"
+  },
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "version": "changes --commits --footer",
+    "postversion": "git push --follow-tags && npm publish --access public"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
+    "@studio/changes": "^2.0.1",
     "eslint": "^7.1.0",
     "mocha": "^7.2.0"
   },
