@@ -23,6 +23,7 @@
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
+    "@sinonjs/referee-sinon": "^8.0.0",
     "@studio/changes": "^2.0.1",
     "eslint": "^7.1.0",
     "eslint-config-prettier": "^6.9.0",
