@@ -1,5 +1,13 @@
 # Changes
 
+## 0.1.1
+
+- [`507c254`](https://github.com/sinonjs/eslint-plugin-no-prototype-methods/commit/507c254d5e535b4e7a0ab8925767b7d3a27de91b)
+  Add tests for no-prototype-methods
+  This also fixes a bug, where arrays were not always detected, because of the overlap in prototype methods with object
+
+_Released on 2020-11-26._
+
 ## 0.1.0
 
 - [`bc88a7e`](https://github.com/sinonjs/eslint-plugin-no-prototype-methods/commit/bc88a7ef3afefe1a711d4b32b67da448701bc03d)
