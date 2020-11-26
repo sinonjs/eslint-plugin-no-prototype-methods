@@ -15,7 +15,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha tests --recursive",
+    "test": "mocha tests --recursive --reporter dot",
     "version": "changes --commits --footer",
     "postversion": "git push --follow-tags && npm publish --access public"
   },
