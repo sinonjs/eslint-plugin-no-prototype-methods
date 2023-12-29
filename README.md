@@ -13,7 +13,7 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-no-prototype-methods`:
 
 ```
-$ npm install eslint-plugin-no-prototype-methods --save-dev
+$ npm install @sinonjs/eslint-plugin-no-prototype-methods --save-dev
 ```
 
 
